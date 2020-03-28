@@ -12,8 +12,8 @@ pipeline {
       parallel {
         stage('Build') {
           steps {
-            sh 'node --version'
             sh 'env'
+            sh 'node --version'
           }
         }
 
